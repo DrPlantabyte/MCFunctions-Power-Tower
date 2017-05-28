@@ -1,6 +1,12 @@
 # MCFunctions-Power-Tower
 Minecraft function that creates a challenging dungeon tower.
 
+*View of the base of the Power Tower*
+![power-tower-1](https://cloud.githubusercontent.com/assets/1922739/26525583/52ede67e-4329-11e7-9efd-53040438e9a1.png)
+
+*Looking up at the Power Tower (it's nearly 200 blocks tall!)*
+![power-tower-2](https://cloud.githubusercontent.com/assets/1922739/26525584/7ddb5088-4329-11e7-8593-3fa09a4f6698.png)
+
 ## What this function does
 This MCFunction adds the function command **/function powertower:build** to your Minecraft world/server. When this command is run, it builds a huge tower at (X,Y,Z) coordinate (0,60,0). The tower is full of monsters and other dangers. The challenge is to collect the beacons from the tower bosses.
 
