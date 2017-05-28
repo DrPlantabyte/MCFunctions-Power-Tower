@@ -11,10 +11,10 @@ def main():
 			fout.write(text)
 			if not text.endswith("\n"):
 				fout.write("\n")
-		out("say time to build the POWA TOWA!!!")
-		out("tp @p -24 100 -24")
-		out("fill -24 99 -24 -24 99 -24 minecraft:dirt")
-		out("fill -24 100 -24 -24 101 -24 minecraft:air")
+		out("say Constructing Power Tower...")
+		out("tp @p -24 70 -24")
+		out("fill -24 69 -24 -24 69 -24 minecraft:dirt")
+		out("fill -24 70 -24 -24 71 -24 minecraft:air")
 		
 		# use the summon command generator at 
 		# https://www.digminecraft.com/generators/summon_mob.php
@@ -145,7 +145,7 @@ def main():
 		boss_rooms[5]['decorations']=['minecraft:sponge 1', 'minecraft:sponge 1', 'minecraft:sponge 1', 'minecraft:prismarine 0', 'minecraft:gravel']
 		boss_rooms[5]['treasure_blocks']=['minecraft:chest 1 replace {LootTable:"minecraft:chests/end_city_treasure"}', 'minecraft:gold_block', 'minecraft:diamond_block']
 		###
-		base = 60
+		base = 64
 		out(f(fillCylinder((0, base - 32, 0), 12, 32, "minecraft:cobblestone")))
 		#
 		later_commands = ""
@@ -184,6 +184,7 @@ def main():
 		out(early_commands)
 		out(middle_commands)
 		out(later_commands)
+		out("say ...construction complete!")
 	
 def towerShaft(base_height):
 	commands = ""
